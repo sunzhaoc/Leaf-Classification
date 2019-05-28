@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="10013">
+              <caret line="667" column="102" selection-start-line="667" selection-start-column="102" selection-end-line="667" selection-end-column="102" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -59,6 +59,9 @@
       <find>pixmap</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -72,9 +75,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="286" />
-    <option name="y" value="-19" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-548" />
+    <option name="y" value="356" />
     <option name="width" value="1096" />
     <option name="height" value="1047" />
   </component>
@@ -83,27 +86,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="leaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leaf" type="462c0819:PsiDirectoryNode" />
+              <item name="Leaf-Classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leaf-Classification" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -235,21 +239,22 @@
       <workItem from="1558883115874" duration="194000" />
       <workItem from="1558940162976" duration="3000" />
       <workItem from="1558940371269" duration="67000" />
+      <workItem from="1559036280218" duration="1838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51151000" />
+    <option name="totallyTimeSpent" value="52989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295519" />
-      <window_info anchor="bottom" x="961" y="31" width="958" height="1008" id="Run" order="2" weight="0.3629469" />
+      <window_info active="true" anchor="bottom" x="961" y="31" width="958" height="1008" id="Run" order="2" visible="true" weight="0.30477223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2841747" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -297,6 +302,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leaf$final.coverage" NAME="final Coverage Results" MODIFIED="1558883273390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leaf_Classification$final.coverage" NAME="final Coverage Results" MODIFIED="1559036589916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leaf$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1558877396512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leaf$final2.coverage" NAME="final2 Coverage Results" MODIFIED="1556505267559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -371,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/final.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="10013">
+          <caret line="667" column="102" selection-start-line="667" selection-start-column="102" selection-end-line="667" selection-end-column="102" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>

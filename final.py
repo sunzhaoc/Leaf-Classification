@@ -30,7 +30,7 @@ tf.app.flags.DEFINE_integer('image_size', 224, "Needs to provide same value as i
 tf.app.flags.DEFINE_integer('pic_channel', 3, "彩色图片")
 # tf.app.flags.DEFINE_integer('pic_channel', 1, "灰度图片")
 tf.app.flags.DEFINE_integer('max_steps', 10000, '最大训练步数 ')
-tf.app.flags.DEFINE_integer('eval_steps', 2, "显示步数")
+tf.app.flags.DEFINE_integer('eval_steps', 50, "显示步数")
 tf.app.flags.DEFINE_integer('save_steps', 500, "保存步数")
 
 tf.app.flags.DEFINE_string('checkpoint_dir', './model/RESNET50_100%/', '模型保存路径')
@@ -42,7 +42,7 @@ tf.app.flags.DEFINE_string('test_dir', './test/00016/16001.jpg', 'test模式测�
 tf.app.flags.DEFINE_integer('axis', 1, 'axis轴')
 tf.app.flags.DEFINE_boolean('train', True, 'Resnet50是否在训练（还是在测试）')
 tf.app.flags.DEFINE_boolean('restore', False, '是否重载模型')
-tf.app.flags.DEFINE_integer('epoch', 10, 'Number of epoches')
+tf.app.flags.DEFINE_integer('epoch', 20, 'Number of epoches')
 tf.app.flags.DEFINE_integer('batch_size', 50, '验证批次大小V')
 tf.app.flags.DEFINE_string('mode', 'train', '训练的模式：train valid test"}')
 FLAGS = tf.app.flags.FLAGS
